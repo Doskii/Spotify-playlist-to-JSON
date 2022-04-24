@@ -8,7 +8,7 @@ Just open copy the contents of [export_spotify_playlist_to_json.js](https://gith
 2. Open [the web version of Spotify](https://play.spotify.com/)
 3. Navigate to your playlist of choice, make sure it is scrolled to the top and that both "title" and "album" columns are visible
 4. Press Ctrl-Shift-i on you keyboard to open devtools, navigate to the **console** tab
-5. Paste the code and wait for it to finish
+5. Paste the code, hit enter and wait for it to finish
 
 ![out](https://user-images.githubusercontent.com/36999268/164950941-b6e4d9bb-435a-4784-9302-d806d5308e59.gif)
 
