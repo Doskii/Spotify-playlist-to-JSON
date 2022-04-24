@@ -11,3 +11,6 @@ Just open copy the contents of [export_spotify_playlist_to_json.js](https://gith
 5. Paste the code and wait for it to finish
 
 ![out](https://user-images.githubusercontent.com/36999268/164950941-b6e4d9bb-435a-4784-9302-d806d5308e59.gif)
+
+## Why?
+I made this script so I could make backups of my playlists in case something were to happen to my account or Spotify itself. I coudn't find a safe looking solution online so I ended up making my own and thought I might as well share it. I can't promise this will keep working forever as it is just looking at the page's HTML build-up meaning that if Spotify updates it, this script will need to update too.
