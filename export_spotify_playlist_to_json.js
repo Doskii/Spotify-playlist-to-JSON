@@ -1,4 +1,4 @@
-document.querySelector("div.main-view-container div.os-viewport.os-viewport-native-scrollbars-invisible").scrollTo(0,0);
+document.querySelector("main").scrollTo(0,0);
 result = [];
 console.log("Starting in 3 sec");
 document.body.style.pointerEvents = "none !important";
