@@ -4,7 +4,7 @@ console.log("Starting in 3 sec");
 document.body.style.pointerEvents = "none !important";
 document.querySelector(".main-view-container div.os-scrollbar.os-scrollbar-vertical").style.display = "none";
 setTimeout(() => { // small delay to allow browser to scroll to the top
-  totalRows = parseInt(document.querySelector("[data-testid$='list']:not([data-testid='recommended-track'] *)").getAttribute("aria-rowcount"));
+  totalRows = parseInt(document.querySelector("[data-testid$='list']:not([data-testid='recommended-track'] *):not(svg)").getAttribute("aria-rowcount"));
   if (totalRows > 0) {
     intervalId = setInterval(() => {
       lastRow = document.querySelector("[data-testid$='list']:not([data-testid='recommended-track'] *) > div:nth-of-type(2) [role='row']:last-of-type");
@@ -51,3 +51,4 @@ setTimeout(() => { // small delay to allow browser to scroll to the top
     console.log("No tracks found! Empty playlist?")
   }
 }, 3000);
+
